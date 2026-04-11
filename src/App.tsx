@@ -17,6 +17,7 @@ const App = () => {
           <Route path="/chat" element={<Chat />} />
         </Routes>
       </Router>
+      <h1>Ozgarish boldi</h1>
     </AuthProvider>
   )
 }
