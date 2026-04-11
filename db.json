@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": "a716",
+      "name": "Ikki eshik orasi",
+      "author": "O'tkir Hoshimov",
+      "year": "1970"
+    },
+    {
+      "name": "Yashamoq",
+      "author": "wedrf",
+      "year": "2025",
+      "id": "4ac8"
+    },
+    {
+      "id": "d798",
+      "name": "drfgt",
+      "author": "wedrf",
+      "year": "652"
+    }
+  ]
+}
