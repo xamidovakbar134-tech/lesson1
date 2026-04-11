@@ -18,6 +18,7 @@ const App = () => {
         </Routes>
       </Router>
       <h1>Ozgarish boldi</h1>
+      <h2>2 chi ozgarish</h2>
     </AuthProvider>
   )
 }
