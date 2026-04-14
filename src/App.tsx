@@ -1,27 +1,19 @@
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-// import Users from "./components/Users"
-import Register from "./components/Register"
-import Login from './components/Login'
-import { AuthProvider } from './providers/provider'
-import Chat from './components/Chat'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AuthProvider } from "./providers/provider";
+import Home from "./components/Home";
+import Users from "./components/Users";
 
 const App = () => {
   return (
     <AuthProvider>
       <Router>
         <Routes>
-          {/* <Route path="/" element={<Users />} /> */}
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/chat" element={<Chat />} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/users" element={<Users/>} />
         </Routes>
       </Router>
-      <h1>Ozgarish boldi</h1>
-      <h2>2 chi ozgarish</h2>
     </AuthProvider>
-  )
-}
+  );
+};
 
-export default App
-
+export default App;

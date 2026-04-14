@@ -1,15 +1,17 @@
 export type User = {
-    id: string;
+    id: number;
+    barberName: string;
+    location: string;
     name: string;
-    age: number;
-    isStudent: boolean;
+    phone: string;
+    date: string;
+    status: string;
 }
-
-export type Message={
-   photoURL: string ,
-   userId:string,
-   message:string,
-   id:string,
-   time:string,
-   userName:string,
+export type Barber = {
+    id: number;
+    name: string;
+    location: string;
+    experience: number;
+    rating: number;
+    img: string;
 }
